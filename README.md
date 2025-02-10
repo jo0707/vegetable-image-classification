@@ -74,6 +74,30 @@ interpreter.allocate_tensors()
 
 The model achieved approximately **96%** accuracy on the validation dataset with a high f1-score for all classes.
 
+```
+              precision    recall  f1-score   support
+
+     pumpkin       0.95      0.96      0.96       280
+      papaya       0.99      0.97      0.98       280
+      potato       0.97      0.99      0.98       280
+     cabbage       0.91      0.96      0.94       280
+     brinjal       0.90      0.97      0.93       280
+bitter_gourd       0.89      0.98      0.93       280
+      tomato       0.99      0.99      0.99       280
+    broccoli       0.98      0.99      0.99       280
+      carrot       0.97      0.94      0.95       280
+        bean       0.98      0.94      0.96       280
+    cucumber       0.97      0.96      0.97       280
+ cauliflower       0.99      0.97      0.98       280
+    capsicum       0.98      0.91      0.94       280
+bottle_gourd       0.98      0.99      0.99       280
+      radish       0.98      0.91      0.94       280
+
+    accuracy                           0.96      4200
+   macro avg       0.96      0.96      0.96      4200
+weighted avg       0.96      0.96      0.96      4200
+```
+
 ## 📜 License
 
 This project is intended for educational and research purposes. You are free to use it with proper attribution.
